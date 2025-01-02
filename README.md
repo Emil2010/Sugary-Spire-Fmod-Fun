@@ -13,6 +13,6 @@ Please report them in issues
 * Unknown contributor - it may be you
 # depedences
 * extracted files with fmod bank tools
-* fmod studio 2.02 (account needed)
+* fmod studio 2.02.23 (account needed)
 # license
 you're not allowed to use this is mods before full releaase
