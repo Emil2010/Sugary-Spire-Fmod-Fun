@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EffectPreset" id="{3e7c2d26-5203-48bd-941c-2f62cd29661e}">
+		<property name="name">
+			<value>Effect Chain</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b66d9da3-1346-4c06-ad00-4acf7ca4197c}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{c7293f89-d098-43ab-ae03-4c7296be5c88}</destination>
+		</relationship>
+	</object>
+	<object class="EffectChain" id="{c7293f89-d098-43ab-ae03-4c7296be5c88}">
+		<relationship name="effects">
+			<destination>{1c283c74-e57b-490e-98bc-b79204f10d09}</destination>
+			<destination>{b608b53a-99ee-4d2e-9d14-bb205d87495d}</destination>
+		</relationship>
+	</object>
+	<object class="PluginEffect" id="{1c283c74-e57b-490e-98bc-b79204f10d09}">
+		<relationship name="plugin">
+			<destination>{068efb5b-c654-44a9-b807-dd5919a81835}</destination>
+		</relationship>
+	</object>
+	<object class="LoudnessMeter" id="{b608b53a-99ee-4d2e-9d14-bb205d87495d}" />
+	<object class="Plugin" id="{068efb5b-c654-44a9-b807-dd5919a81835}">
+		<property name="identifier">
+			<value>McDSP ML1 Limiter</value>
+		</property>
+		<relationship name="pluginParameters">
+			<destination>{ad891494-83f2-456a-9426-abb3f7e67415}</destination>
+			<destination>{6394b017-13f0-4d59-b44c-81c3561d1884}</destination>
+			<destination>{17f6f9b5-7a2f-4247-8957-208d6cb19f8b}</destination>
+			<destination>{42b7caa0-eb5b-44ec-b546-5867a4f163ac}</destination>
+			<destination>{caf5b5ec-dcc2-4ad5-8530-f1ec962b069e}</destination>
+		</relationship>
+	</object>
+	<object class="FloatPluginParameter" id="{ad891494-83f2-456a-9426-abb3f7e67415}">
+		<property name="name">
+			<value>Ceiling</value>
+		</property>
+		<property name="value">
+			<value>-10</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,-36.000000)(1.000000,0.000000)}</value>
+		</property>
+	</object>
+	<object class="FloatPluginParameter" id="{6394b017-13f0-4d59-b44c-81c3561d1884}">
+		<property name="name">
+			<value>Threshold</value>
+		</property>
+		<property name="value">
+			<value>-19</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,-36.000000)(1.000000,0.000000)}</value>
+		</property>
+	</object>
+	<object class="FloatPluginParameter" id="{17f6f9b5-7a2f-4247-8957-208d6cb19f8b}">
+		<property name="name">
+			<value>Knee</value>
+		</property>
+		<property name="value">
+			<value>10</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,0.000000)(1.000000,100.000000)}</value>
+		</property>
+	</object>
+	<object class="FloatPluginParameter" id="{42b7caa0-eb5b-44ec-b546-5867a4f163ac}">
+		<property name="name">
+			<value>Release</value>
+		</property>
+		<property name="value">
+			<value>50</value>
+		</property>
+		<property name="curve">
+			<value>{(0.000000,1.000000)(1.000000,2.000000)(2.000000,5.000000)(3.000000,10.000000)(4.000000,20.000000)(5.000000,50.000000)(6.000000,100.000000)(7.000000,200.000000)(8.000000,500.000000)(9.000000,1000.000000)(10.000000,2000.000000)(11.000000,5000.000000)}</value>
+		</property>
+	</object>
+	<object class="IntPluginParameter" id="{caf5b5ec-dcc2-4ad5-8530-f1ec962b069e}">
+		<property name="name">
+			<value>Character</value>
+		</property>
+		<property name="value">
+			<value>4</value>
+		</property>
+		<property name="minimumValue">
+			<value>0</value>
+		</property>
+		<property name="maximumValue">
+			<value>5</value>
+		</property>
+	</object>
+</objects>

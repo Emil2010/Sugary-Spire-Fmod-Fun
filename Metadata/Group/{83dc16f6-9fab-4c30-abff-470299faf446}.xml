@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{83dc16f6-9fab-4c30-abff-470299faf446}">
+		<property name="name">
+			<value>fakepep</value>
+		</property>
+		<relationship name="automators">
+			<destination>{69effc81-6e02-4628-a893-456cca5b3202}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{8b307d7b-c85f-4fba-9a4c-c7277f559ed1}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ffe41e94-c5a4-4a9b-b688-854a7b81a046}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{8ca145ee-c77d-4478-9af9-3941e6ee6b0a}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{69effc81-6e02-4628-a893-456cca5b3202}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+	</object>
+	<object class="MixerBusEffectChain" id="{8b307d7b-c85f-4fba-9a4c-c7277f559ed1}">
+		<relationship name="effects">
+			<destination>{82d5e9c4-3f77-4822-b72b-04996c87ea7c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ffe41e94-c5a4-4a9b-b688-854a7b81a046}" />
+	<object class="MixerBusFader" id="{82d5e9c4-3f77-4822-b72b-04996c87ea7c}" />
+</objects>
