@@ -1,5 +1,7 @@
 # Sugary Spire Fmod Fun
 Fmod recreation of sugary spire
+# innacuracy
+Please report them in issues
 # to-do list
 1. add all events that exists
 2. add all missing parameters
