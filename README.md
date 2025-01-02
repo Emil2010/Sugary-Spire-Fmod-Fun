@@ -9,5 +9,8 @@ Fmod recreation of sugary spire
 * Emil The Sylveon - make this project
 * Big Gnome Studio - make Sugary Spire
 * Unknown contributor - it may be you
+# depedences
+* extracted files with fmod bank tools
+* fmod studio 2.02 (account needed)
 # license
 you're not allowed to use this is mods before full releaase
