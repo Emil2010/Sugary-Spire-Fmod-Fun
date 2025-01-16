@@ -12,7 +12,7 @@ Please report them in issues
 * Big Gnome Studio - make Sugary Spire
 * Unknown contributor - it may be you
 # depedences
-* extracted files with fmod bank tools
+* extracted files with fmod bank tools or Fenix pro fmod
 * fmod studio 2.02.23 (account needed)
 # license
 you're not allowed to use this is mods before full releaase
