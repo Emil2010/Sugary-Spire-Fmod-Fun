@@ -14,7 +14,7 @@ Please report them in issues
 # Gamebanana
 https://gamebanana.com/wips/90146
 # depedences
-* extracted files with fmod bank tools or Fenix pro fmod
+* extracted files with fmod bank tools
 * fmod studio 2.02.23 (account needed)
 # license
 you're not allowed to use this is mods before full releaase
