@@ -11,6 +11,8 @@ Please report them in issues
 * Emil The Sylveon - make this project
 * Big Gnome Studio - make Sugary Spire
 * Unknown contributor - it may be you
+# Gamebanana
+https://gamebanana.com/wips/90146
 # depedences
 * extracted files with fmod bank tools or Fenix pro fmod
 * fmod studio 2.02.23 (account needed)
