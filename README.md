@@ -10,7 +10,7 @@ Please report them in issues
 # credits
 * Emil The Sylveon - make this project
 * Big Gnome Studio - make Sugary Spire
-* SlutterMess - make fmod decompiler which helps me recreate project (if working)
+* StutterMess - make fmod decompiler which helps me recreate project (if working)
 * Unknown contributor - it may be you
 # Gamebanana
 https://gamebanana.com/wips/90146
