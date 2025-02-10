@@ -18,4 +18,4 @@ https://gamebanana.com/wips/90146
 * extracted files with fmod bank tools
 * fmod studio 2.02.23 (account needed)
 # license
-you're not allowed to use this is mods before full releaase
+you're not allowed to use this in mods before full releaase
